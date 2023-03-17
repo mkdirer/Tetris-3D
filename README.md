@@ -1,6 +1,6 @@
 # Tetris 3D
 Tetris 3D is a classic Tetris game with a 3D twist. The game consists of different shaped blocks falling down a three-dimensional playing field. Your goal is to rotate and position the blocks to create complete rows that disappear, earning you points.
-
+Click here to play: <a href="https://tetris-3d.onrender.com">Tetris-3D</a>
 ## How to Play
 - Use the arrow keys to move the falling block left, right, or down
 - Use the up arrow key to rotate the block
