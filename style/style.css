@@ -1,0 +1,82 @@
+body { 
+    margin: 0; 
+}
+
+canvas { 
+    display: block; 
+}
+
+#menu {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 3px solid #f1f506;
+    background-color: #000;
+    padding: 20px;
+    box-shadow: 0 0 15px #f1f506;
+}
+
+#instruction {
+    margin-top: 50px;
+    color: #ddd;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#points-box {
+    color: #ddd;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    padding: 10px;
+    top: 20px;
+    left: 80px;
+    border: 3px solid #f1f506;
+    background-color: #000;
+    color: #fff;
+    text-align: right;
+    box-shadow: 0 0 15px #f1f506;
+    display: none;
+}
+
+#play-button {
+    color: #ddd;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    background-color: #000;
+    border: 3px solid #f1f506;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 50px;
+}
+
+#play-button:hover {
+    background-color: #203002;
+}
+
+#game-over {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #f1f506;
+    background-color: #000;
+    box-shadow: 0 0 15px #f1f506;
+    color: #ddd;
+    font-size: 30px;
+    font-weight: bold;
+}
